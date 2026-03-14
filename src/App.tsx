@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { MemoryRouter, Routes, Route, useLocation } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './Navbar';
+import Footer from './Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Services from './pages/Services';
-import Partners from './pages/Partners';
-import Sectors from './pages/Sectors';
-import Contact from './pages/Contact';
+import Services from './Services';
+import Partners from './Partners';
+import Sectors from './Sectors';
+import Contact from './Contact';
 
 // Scroll to top helper
 const ScrollToTop = () => {
